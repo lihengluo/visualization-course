@@ -1,6 +1,6 @@
 # 作业2
 
-### 1
+### 1.
 
 ```python
 import json
@@ -119,11 +119,19 @@ bar_gender.add_xaxis(average_scores.index.tolist())
 for gender in average_scores.columns:
     bar_gender.add_yaxis(gender, average_scores[gender].tolist())
 
-# Rendering the charts (you can also save them as HTML files)
+# Rendering the charts
 bar.render("../res/2-3-1bar.html")
 page.render("../res/2-3-2pie.html")
 line.render("../res/2-3-3line.html")
 bar_gender.render("../res/2-3-4bar_gen.html")
 ```
 
+#### 图表（按照3.1——3.4顺序依次列出）
 
+![img.png](../img/img2-3-1.png)
+
+![img.png](../img/img2-3-2.png)
+
+![img.png](../img/img2-3-3.png)
+
+![img.png](../img/img2-3-4.png)
